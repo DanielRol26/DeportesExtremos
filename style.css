@@ -1,0 +1,206 @@
+.header {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+}
+  .logo {
+    position: relative;
+    top: -22px;
+    left: 80px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border-radius: 90px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    background: #FFFFFF; /* Fondo blanco */
+    padding: 20px; /* Agrega un poco de espacio alrededor de las tarjetas */
+    flex-direction: column; /* Cambia la dirección a columna para que los elementos estén uno encima del otro */
+    align-items: center; /* Centra horizontalmente los elementos */
+    background: #FFFFFF; /* Fondo blanco */
+    padding: 20px; /* Agrega un poco de espacio alrededor de las tarjetas y el título */
+  }
+  
+  .card {
+    width: 200px;
+    height: 350px; /* Aumenta la altura para acomodar mejor el contenido */
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra ligera */
+    text-align: center; /* Centra el contenido */
+    transition: transform 0.3s, box-shadow 0.3s; /* Agrega transiciones suaves */
+  }
+  
+  .card img {
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px; 
+
+ 
+  }
+  
+  .card .title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+  }
+  
+  .card .link {
+      color: #000;
+      font-family: Roboto;
+      font-size: 14px;
+      line-height: 135.938%;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15); /* Efecto al pasar el mouse */
+  }
+
+  .t1 {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    margin-bottom: 20px; /* Agrega espacio entre el título y las tarjetas */
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+/* ... tu CSS actual ... */
+
+.welcome-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 40px;
+    overflow: hidden;
+
+}
+
+.welcome-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.welcome-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.welcome-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.welcome-image img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-radius: 8px;
+}
+
+.site-title {
+    position: relative;
+    top: 46px;
+    left: 70px;
+    font-size: 32px;
+    margin: 0;
+}
+
+/* ... tu CSS actual ... */
+
+.accommodation-section {
+    background-color: #FFFFFF;
+    padding: 40px;
+    text-align: center;
+}
+
+.accommodation-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.accommodation-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.accommodation-card {
+    width: 300px;
+    padding: 20px;
+    background-color: #F2F2F2;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.accommodation-card img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.accommodation-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* ... tu CSS actual ... */
+
+.safety-section {
+    background-color: #F2F2F2;
+    padding: 40px;
+    text-align: center;
+}
+
+.safety-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.reservation-section {
+    background-color: #FFFFFF;
+    padding: 40px;
+    text-align: center;
+}
+
+.reservation-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.reservation-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #FF6B6B;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.reservation-button:hover {
+    background-color: #FF4040;
+}
+
+
+
+
+
+
+
+  
